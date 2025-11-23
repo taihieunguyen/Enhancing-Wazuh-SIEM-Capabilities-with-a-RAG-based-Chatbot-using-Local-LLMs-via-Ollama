@@ -32,17 +32,17 @@ Software:
 - Ollama: Installed with necessary models pulled.
 
 # Getting Started
-1. Install Dependencies
+1. Install Dependencies:
 pip install flask langchain-community langchain-huggingface langchain-ollama faiss-cpu watchdog
-2. Prepare Models (via Ollama)
+2. Prepare Models (via Ollama):
 ollama pull llama3.1:8b
 ollama pull phi3:mini
-3. Configuration
+3. Configuration:
 Edit the app.py file to point to your correct Wazuh log paths and Ollama Server IP:
 class Config:
     OLLAMA_SERVER_URL = "http://localhost:11434"
     WAZUH_ALERTS_PATH = "/var/ossec/logs/alerts"
-4. Launch the Chatbot
+4. Launch the Chatbot:
 python app.py
 
 # References
