@@ -42,7 +42,6 @@ Edit the app.py file to point to your correct Wazuh log paths and Ollama Server 
 class Config:
     OLLAMA_SERVER_URL = "http://localhost:11434"
     WAZUH_ALERTS_PATH = "/var/ossec/logs/alerts"
-    # ...
 4. Launch the Chatbot
 python app.py
 
