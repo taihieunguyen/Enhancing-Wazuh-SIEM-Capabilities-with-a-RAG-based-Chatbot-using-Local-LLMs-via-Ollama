@@ -31,6 +31,12 @@ Software:
 - Python: Version 3.10 or higher.
 - Ollama: Installed with necessary models pulled.
 
+# User Interface
+<img width="994" height="828" alt="image" src="https://github.com/user-attachments/assets/e65c5ccc-971f-48e7-9ee6-7cf6d743c590" />
+
+# Backend & Processing
+<img width="1851" height="445" alt="image" src="https://github.com/user-attachments/assets/6020e62d-b997-49b7-829a-b4b534e3e741" />
+
 # Getting Started
 1. Install Dependencies:
 ```bash
